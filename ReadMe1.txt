@@ -3,6 +3,7 @@ Simulation of IMU data using optical motion capture data
 The read_data_version_1 reads VICON trc data files into MATLAB struct via python function
 The read_data_version_2 has support for OneDrive and local computer drive
 The read_data_version_3 has support for reading IMU h5 data files
+The read_data_version_4 handles erroneous files which exist but have no data
 
 Presentation_1 has information regarding data type conventions and standardization. It also has information about data size standardization.
 Presentation_5 has updated information regarding data type and size standardization and convention. It also contains information about the nomenclature map from the VICON marker names to the IMU sensor location names.
