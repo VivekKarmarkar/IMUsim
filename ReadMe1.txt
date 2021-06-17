@@ -31,3 +31,10 @@ The anatomical_calibration_validate creates the animations and runs invalidation
 The movement_analysis_reference_frame creates animations that can be used to visualize the technical marker frames and reconstructed anatomical segments for a given movement trial
 
 Note that anatomical frames are yet to be constructed. Version_1 only reconstructs the anatomical segment
+
+Make sure that the following data has been loaded while using Version_1:
+body_segment_input_data
+marker_names_saved
+UVM_data_regrouped
+anatomical_markers_info_data
+anatomical_calibration_parameters_info_data
