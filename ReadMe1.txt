@@ -21,3 +21,13 @@ Make sure IMU_read, IMU_unpack_components functions is in the same folder as MAT
 Special attention should be paid to the difference between referencing / calling VICON and IMU data files which has been included in Presentation_5
 
 Save the activity_struct and reuse it in a fresh code without worrying about the read_data code if desired
+
+Anatomical_Frames_implementation_version_1 details below: (Version_1 has basic pose estimator, noise present and uses GT marker)
+The extract_global_markers extracts the common marker set and anatomical marker set that can be used to determine the technical marker set
+The extract_technical_markers extracts the markers that can be used to construct the technical marker frame for each subject
+The body_segment_input_info has information regarding the inputs that are required repeatedly for various body segments in other codes
+The anatomical_calibration_extract extracts the anatomical calibration parameters from the static calibration files for all subjects
+The anatomical_calibration_validate creates the animations and runs invalidation functions to check if the anatomical_calibration_extraction was successful
+The movement_analysis_reference_frame creates animations that can be used to visualize the technical marker frames and reconstructed anatomical segments for a given movement trial
+
+Note that anatomical frames are yet to be constructed. Version_1 only reconstructs the anatomical segment
