@@ -38,3 +38,4 @@ marker_names_saved
 UVM_data_regrouped
 anatomical_markers_info_data
 anatomical_calibration_parameters_info_data
+technical_frame_markers_info_data
