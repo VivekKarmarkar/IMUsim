@@ -44,3 +44,5 @@ Anatomical_Frames_implementation_version_2 details below: (Differences from vers
 PointCloud object transposed for collinearity test as this is conceptually correct although results are the same
 Collinearity test has been made more robust by including a triangle inequality based check as well
 Anatomical frame pose estimator for femoral and tibial segments have been included
+
+Note that version_2 uses the Greater Trochanter (GT) marker for construction of the femoral reference frame
