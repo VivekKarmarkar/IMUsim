@@ -39,3 +39,8 @@ UVM_data_regrouped
 anatomical_markers_info_data
 anatomical_calibration_parameters_info_data
 technical_frame_markers_info_data
+
+Anatomical_Frames_implementation_version_2 details below: (Differences from version_1)
+PointCloud object transposed for collinearity test as this is conceptually correct although results are the same
+Collinearity test has been made more robust by including a triangle inequality based check as well
+Anatomical frame pose estimator for femoral and tibial segments have been included
