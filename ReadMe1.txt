@@ -46,3 +46,7 @@ Collinearity test has been made more robust by including a triangle inequality b
 Anatomical frame pose estimator for femoral and tibial segments have been included
 
 Note that version_2 uses the Greater Trochanter (GT) marker for construction of the femoral reference frame
+
+Anatomical_Frames_implementation_version_2 details below: (Differences from version_1,2)
+Knee Angle plot functions have been included
+Pose Component plot functions have been included
