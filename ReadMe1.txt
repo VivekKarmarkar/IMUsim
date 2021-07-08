@@ -50,3 +50,12 @@ Note that version_2 uses the Greater Trochanter (GT) marker for construction of 
 Anatomical_Frames_implementation_version_2 details below: (Differences from version_1,2)
 Knee Angle plot functions have been included
 Pose Component plot functions have been included
+
+Anatomical_Frames_implementation_version_4 details below:
+Memory issue fixed for animations
+Rotating viewpoint functionality introduced
+Appropriate scales have been applied to animation
+Algorithm to estimate current movement direction
+Gait event detection using direction estimation, sacral and leg data
+Visualization tool incorporating animation and knee angle plots annoted with gait events and current time
+Knee angle plots embedded in the visualization tool have a zoom window around current time
