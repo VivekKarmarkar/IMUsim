@@ -69,3 +69,34 @@ Movement Analysis performed after validating Anatomical Calibration
 All Force Plate Walk trials reprocessed
 Anatomical Calibration and Movement Analysis results only generated for Force Plate Walk 1
 Code refactored to accomodate simultaneous processing of Raw and Processed data
+
+Anatomical_Frames_implementation_version_6 details below:
+Version 6 implements the Rigid Body algorithm
+Version 6 contains 3 subversions: 6a, 6b, 6c
+--------------------------------------------
+Version 6a details:
+Existing Technical Frame Markers used
+Vertex sorting performed on movement data
+--------------------------------------------
+Version 6b details:
+Optimal Technical Frame Markers obtained based on Rigid Body concepts and geometric constraints
+Vertex sorting performed on movement data
+--------------------------------------------
+Version 6c details:
+Technical Frame Markers obtained using artifical data constructed to correspond to anatomical markers for comparison purposes
+Vertex sorting performed on movement data
+--------------------------------------------
+Force Plate Walk Activity has been used to obtain markers
+Complete processing done for Force Plate Walk 1
+--------------------------------------------
+Analyze Rigid Body results is a script to interpret and analyze the results:
+Establish systematic Knee Angle error using Flexion data
+Show correspondence between error and estimate peaks for Flexion
+Correlation between results and offset caused due to GT marker
+--------------------------------------------
+Following order:
+1) Extract Technical Frame markers
+2) Extract Sorted Vertex data
+3) Extract Anatomical Calibration
+4) Validate Anatomical Calibration
+5) Movement Analysis
