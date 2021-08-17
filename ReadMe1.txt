@@ -59,3 +59,13 @@ Algorithm to estimate current movement direction
 Gait event detection using direction estimation, sacral and leg data
 Visualization tool incorporating animation and knee angle plots annoted with gait events and current time
 Knee angle plots embedded in the visualization tool have a zoom window around current time
+
+Anatomical_Frames_implementation_version_5_details below:
+Raw data processed using cubic spline fit followed by 4th order low-pass Butterworth filter
+Reprocessing of data to remove outliers
+Anatomical Calibration performed on reporcessed data
+Anatomical Calibration validated
+Movement Analysis performed after validating Anatomical Calibration
+All Force Plate Walk trials reprocessed
+Anatomical Calibration and Movement Analysis results only generated for Force Plate Walk 1
+Code refactored to accomodate simultaneous processing of Raw and Processed data
